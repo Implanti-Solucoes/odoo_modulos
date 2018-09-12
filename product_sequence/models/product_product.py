@@ -21,7 +21,7 @@ class ProductProduct(models.Model):
     _sql_constraints = [
         ('uniq_default_code',
          'unique(default_code)',
-         'The reference must be unique'),
+         'Já existe um Código Interno, o sistema irá gerar um novo'),
     ]
 
     @api.model
