@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!--
+  Alterado Por Dário	
   product_sequence for Odoo
   Copyright 2004 Tiny SPRL
   Copyright 2016 Sodexis
   The licence is in the file __openerp__.py
 -->
-
 <odoo noupdate="1">
     <record id="seq_product_auto" model="ir.sequence">
         <field name="name">Product</field>
